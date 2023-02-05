@@ -1,0 +1,24 @@
+.card_job {
+  background-color: black;
+  padding: 30px 12px;
+  min-height: 240px;
+  min-width: 300px;
+  max-width: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  h4 {
+    font-weight: 700;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

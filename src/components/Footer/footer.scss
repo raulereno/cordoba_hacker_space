@@ -1,0 +1,12 @@
+#container_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 100px;
+  p {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+  }
+}
