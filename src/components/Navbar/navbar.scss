@@ -1,10 +1,15 @@
+.navbar {
+  padding-top: 50px;
+}
 #navbar {
   height: 60px;
-
+  padding-right: 80px;
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
   .container {
+    max-width: 100%;
     width: 100%;
+    padding: 0;
     #hamb_button {
       background-color: transparent;
       border: none;
@@ -24,7 +29,7 @@
     }
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 995px) {
   .navbar-custom {
     border: 0;
     margin: 0;
@@ -37,12 +42,19 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .navbar {
+    padding-top: 0;
+  }
   #navbar {
     background-color: black;
+    padding-right: 0;
+    .navbar-nav {
+      gap: 10px;
+    }
     #basic-navbar-nav {
       border-top: 1px rgba(128, 128, 128, 0.389) solid;
       background-color: black;
-      padding: 15px 30px;
+      padding: 10px 30px;
 
       a {
         font-size: 18px;
@@ -50,9 +62,13 @@
     }
   }
 }
-@media screen and (min-width: 500px) and (max-width: 1020px) {
+@media screen and (min-width: 500px) and (max-width: 995px) {
+  .navbar {
+    padding-top: 0;
+  }
   #navbar {
     background-color: black;
+    padding-right: 0;
     .container {
       #hamb_button {
         span {
@@ -67,7 +83,7 @@
       width: 100%;
 
       a {
-        font-size: 25px;
+        font-size: 22px;
       }
     }
   }
