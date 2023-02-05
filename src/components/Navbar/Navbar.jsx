@@ -25,10 +25,10 @@ const NavbarComponent = () => {
         />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="#home">NOSOTROS</Nav.Link>
-            <Nav.Link href="#link">JOBS</Nav.Link>
-            <Nav.Link href="#link">UBICACIÓN</Nav.Link>
-            <Nav.Link href="#link">SPONSORS</Nav.Link>
+            <Nav.Link href="#container_about">NOSOTROS</Nav.Link>
+            <Nav.Link href="#container_jobs">JOBS</Nav.Link>
+            <Nav.Link href="#container_location">UBICACIÓN</Nav.Link>
+            <Nav.Link href="#container_partner">SPONSORS</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
