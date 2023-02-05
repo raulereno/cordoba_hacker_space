@@ -16,7 +16,7 @@ const Partner = () => {
             target="_blank"
             className="partner-box partner-box-5"
           >
-            <img src="public/partner-5.png" alt="" />
+            <img src="/partner-5.png" alt="faraday" />
           </a>
         </div>
         <div>
@@ -25,7 +25,7 @@ const Partner = () => {
             target="_blank"
             className="partner-box partner-box-3"
           >
-            <img src="public/partner-3.png" alt="" />
+            <img src="/partner-3.png" alt="artssec" />
           </a>
         </div>
         <div>
@@ -34,7 +34,7 @@ const Partner = () => {
             target="_blank"
             className="partner-box partner-box-9"
           >
-            <img src="public/partner-9.png" alt="" />
+            <img src="/partner-9.png" alt="patagoniasecurity" />
           </a>
         </div>
         <div>
@@ -43,7 +43,7 @@ const Partner = () => {
             target="_blank"
             className="partner-box partner-box-8"
           >
-            <img src="public/partner-8.png" alt="" />
+            <img src="/partner-8.png" alt="naranja" />
           </a>
         </div>
         <div>
@@ -53,7 +53,7 @@ const Partner = () => {
             className="partner-box partner-box-7"
           >
             {" "}
-            <img src="public/partner-7.png" alt="" />
+            <img src="/partner-7.png" alt="fundacionsadosky" />
           </a>
         </div>
       </div>
