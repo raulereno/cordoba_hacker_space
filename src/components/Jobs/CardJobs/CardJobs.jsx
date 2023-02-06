@@ -6,7 +6,11 @@ const CardJobs = ({ title, description, link }) => {
     <div className="card_job">
       <h4>{title}</h4>
       <p>{description}</p>
-      <a href={link}>Aplica acá</a>
+      {link.includes("@") ? (
+        <a href={`mailto:${link}`}>Enviar email</a>
+      ) : (
+        <a href={link}>Aplica acá</a>
+      )}
     </div>
   );
 };

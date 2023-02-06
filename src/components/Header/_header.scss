@@ -18,3 +18,11 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+@media screen and (max-width: 500px) {
+  #container_header {
+    min-height: 80vh;
+  }
+  #container_header::before {
+    background-color: transparent;
+  }
+}

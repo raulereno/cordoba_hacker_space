@@ -1,1 +1,5 @@
-TODO: 1.Flecha para volver arriba 
+TODO: 1.Flecha para volver arriba.
+TODO: 2.Crear pagina 404
+TODO: 3.Fijarse imagen del header en mobile
+TODO: 4.No funcionan las animaciones en celular en deploy del menu
+TODO: 5.El menu al colapsarse desplaza al boton hamb

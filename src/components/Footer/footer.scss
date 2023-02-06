@@ -1,9 +1,10 @@
 #container_footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: black;
-  min-height: 100px;
+  min-height: 200px;
   p {
     font-size: 18px;
     color: white;
